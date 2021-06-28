@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<title> Galaxy Wars</title>
+	<script src="./js/indexjs.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="container">
+	<header>
+		<h1>Speed Calculator</h1>
+	</header>
+	<form>
+		<div>
+			<h2>Co ordinates 1</h2>
+  			<label for="Gx">G</label>
+			<input type="number" name="gx" id="Gx" min="0">
+			<label for="Px">P</label>
+			<input type="number" name="px" id="Px" min="0" max="10">
+		</div>
+
+		<div>
+			<h2>Co ordinates 2</h2>
+  			<label for="Gy">G</label>
+			<input type="number" name="gy" id="Gy" min="0">
+			<label for="Py">P</label>
+			<input type="number" name="py" id="Py" min="0" max="10">
+		</div>
+		<div>
+			<h2>Research impulse</h2>
+			<select name="research" id="impulseResearch">
+					<option value="20" selected>Research Level(20 |+80) default</option>
+					<option value="19"> Research Level(19 |+76)</option>
+					<option value="18"> Research Level(18 |+72)</option>
+					<option value="17"> Research Level(17 |+68)</option>
+					<option value="16"> Research Level(16 |+64)</option>
+					<option value="15"> Research Level(15 |+60)</option>
+					<option value="14"> Research Level(14 |+56)</option>
+					<option value="13"> Research Level(13 |+52)</option>
+					<option value="12"> Research Level(12 |+48)</option>
+					<option value="11"> Research Level(11 |+44)</option>
+					<option value="10"> Research Level(10 |+40)</option>
+					<option value="9"> Research Level(9 |+36)</option>
+					<option value="8"> Research Level(8 |+32)</option>
+					<option value="7"> Research Level(7 |+28)</option>
+					<option value="6"> Research Level(6 |+24)</option>
+					<option value="5"> Research Level(5 |+20)</option>
+					<option value="4"> Research Level(4 |+16)</option>
+					<option value="3"> Research Level(3 |+12)</option>
+					<option value="2"> Research Level(2 |+8)</option>
+					<option value="1"> Research Level(1 |+4)</option>
+					<option value="0"> Research Level(0 |+0)</option>
+				</select>
+		</div>
+		<div>
+		<h2>Ships</h2>
+			<!-- the value is equal to priority level in terms of speed-->
+			<div><input type="checkbox" value="1" id="interceptor"><label>Interceptor</label></div>
+			<div><input type="checkbox" Value="3" id="destroyer"><label>Destroyer</label></div>
+			<div><input type="checkbox" Value="4" id="cruiser"><label>Cruiser</label></div>
+			<div><input type="checkbox" Value="5" id="bomber"><label>Bomber</label></div>
+			<div><input type="checkbox" Value="3" id="battleship"><label>Battleship</label></div>
+			<div><input type="checkbox" Value="2" id="nemesis"><label>Nemesis</label></div>
+			<div><input type="checkbox" Value="6" id="colonyship"><label>Colony ship</label></div>
+		</div><!--.content-->
+
+		<div>
+			<h2>Results</h2>
+			<button type="button" id="outputtime">Answer :</button><input id="Results">
+		</div>
+		<div id="counterdiv">
+			<h2>Counter</h2>
+			<button type="button" id="counterbutton">Counter :</button><input id="counter" Value="Enter initial time as hh:mm:ss">
+		</block
+	</form>
+
+
+	<script src="./js/indexjs.js"></script>
+</div>
+    <footer>
+      <p>pain, Copyright &copy; 2021</p>
+    </footer>
+</body>
+
+
+</html>
